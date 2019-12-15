@@ -1,6 +1,5 @@
 /* SpoqaHanSans 웹폰트 CDN */
 
-
 /* 한자도 지원 ! */
 
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
@@ -10,259 +9,257 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 * {
-    font-family: "Spoqa Han Sans";
-    font-family: "Open Sans", sans-serif;
+  font-family: "Spoqa Han Sans";
+  font-family: "Open Sans", sans-serif;
 }
-
 
 /* button 기본 테두리 제거 */
 
 button {
-    background-color: #ffffff;
-    border: none;
-    padding: 0px;
+  background-color: #ffffff;
+  border: none;
+  padding: 0px;
 }
 
 header {
-    height: 60px;
-    align-items: center;
-    padding: 16px;
-    border-bottom: 1px solid #efefef;
+  height: 60px;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #efefef;
 }
 
 .profile {
-    display: inline-block;
-    vertical-align: baseline;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .profile img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 
 .section-username {
-    display: inline;
-    margin-left: 16px;
+  display: inline;
+  margin-left: 16px;
 }
 
 .section-img img {
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .section {
-    padding: 0px;
-    width: 300px;
-    height: auto;
-    border-radius: 3px;
-    margin-bottom: 60px;
-    margin-top: 10px;
-    clear: both;
+  padding: 0px;
+  width: 300px;
+  height: auto;
+  border-radius: 3px;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  clear: both;
 }
 
 article {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
 }
 
 .section-sub {
-    padding: 16px;
-    border-top: 1px solid #e6e6e6;
+  padding: 16px;
+  border-top: 1px solid #e6e6e6;
 }
 
 .section-like-count {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .section-sub-content {
-    color: #003569;
+  color: #003569;
 }
 
 .content {
-    display: flex;
+  display: flex;
 }
-
 
 /* 여기까지 instagram 기본 틀 */
 
-
 /* 여기서부턴 영역 별로 css */
-
 
 /* div - content-profile */
 
 #profile {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .content-profile {
-    width: 100%;
+  width: 100%;
 }
 
-.content-profile>.section {
-    float: left;
-    width: 40%;
-    height: auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
+.content-profile > .section {
+  float: left;
+  width: 40%;
+  height: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .my-profile {
-    text-align: left;
-    margin-top: 20px;
-    padding-left: 50px;
-    float: right;
-    width: 60%;
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 50px;
+  float: right;
+  width: 60%;
 }
 
 .name {
-    font-size: 1.4rem;
-    font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .hooby ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .hooby ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .blabla li {
-    list-style: none;
+  list-style: none;
 }
 
 .blabla i {
-    margin-right: 3px;
+  margin-right: 3px;
 }
-
 
 /* div - content-skill */
 
 #skill {
-    padding-top: 30px;
-    margin-bottom: 140px;
-    border-top: 1px solid #efefef;
+  padding-top: 30px;
+  margin-bottom: 140px;
+  border-top: 1px solid #efefef;
 }
 
 .content-skill {
-    clear: both;
+  clear: both;
 }
 
 .content-skill article {
-    width: 300px;
+  width: 300px;
 }
 
 .content-skill .section {
-    display: inline;
+  display: inline;
 }
 
 .content-skill h2,
 h4 {
-    text-align: center;
+  text-align: center;
 }
 
 .content-skill .section article {
-    display: inline-block;
-    margin-right: 55px;
+  display: inline-block;
+  margin-right: 55px;
 }
 
 .content-skill .section-content {
-    text-align: center;
-    padding: 1rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .content-skill .language {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .content-skill .section-img {
-    width: 100%;
-    display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 
 .content-skill .section-img img {
-    width: inherit;
-    height: 140px;
+  width: inherit;
+  height: 140px;
 }
-
 
 /* div - content-project */
 
 #project {
-    padding-top: 30px;
-    margin-bottom: 160px;
-    border-top: 1px solid #efefef;
+  padding-top: 30px;
+  margin-bottom: 160px;
+  border-top: 1px solid #efefef;
 }
 
 .content-project {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .content-project h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .content-project article {
-    width: 300px;
+  width: 300px;
 }
 
 .content-project .section {
-    display: inline;
+  display: inline;
 }
 
 .content-project .section-content {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    margin-right: 6px;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-right: 6px;
 }
 
 .content-project .section article {
-    display: inline-block;
-    margin-right: 55px;
+  display: inline-block;
+  margin-right: 55px;
 }
 
 .content-project .section-img {
-    width: 100%;
-    display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 
 .content-project .section .section-img img {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
-    /* 모바일에 사용될 스타일 시트를 여기에 작성합니다. */
-    .container {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    #profile {
-        margin-bottom: 14px;
-    }
-    .content-profile>.section {
-        clear: both;
-        width: 100%;
-        padding: 0;
-    }
-    .my-profile {
-        float: none;
-        text-align: left;
-        padding: 10px;
-        width: 100%;
-    }
-    #skill {
-        margin-bottom: 70px;
-    }
-    .content-skill .section article {
-        width: 330px;
-        margin-bottom: 14px;
-    }
-    .content-project .section article {
-        width: 330px;
-        margin-bottom: 14px;
-    }
+  /* 모바일에 사용될 스타일 시트를 여기에 작성합니다. */
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #profile {
+    margin-bottom: 14px;
+  }
+  .content-profile > .section {
+    clear: both;
+    width: 100%;
+    padding: 0;
+  }
+  .my-profile {
+    float: none;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+  }
+  #skill {
+    margin-bottom: 70px;
+  }
+  .content-skill .section article {
+    width: 330px;
+    margin-bottom: 14px;
+  }
+  .content-project .section article {
+    width: 330px;
+    margin-bottom: 14px;
+  }
 }
